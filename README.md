@@ -39,6 +39,7 @@ Run both the client and server side:
     ```
 ### Demo
 
+![image](https://github.com/DRX-88/The-Archives/assets/162182740/a8477f62-ca9d-4ff1-85ce-edebd4e27a69)
 
 
 ## Contributions
