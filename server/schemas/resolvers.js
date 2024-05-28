@@ -1,4 +1,4 @@
-const { AuthenticationError } = require('apollo-server');
+const { AuthenticationError, signToken } = require('../utils/auth');
 const { User } = require('../models');
 
 const resolvers = {
@@ -8,12 +8,6 @@ const resolvers = {
         return User.findById(context.user._id).populate('savedBooks');
       }
       throw new AuthenticationError('You need to be logged in!');
-    },
-    users: async () => {
-      return User.find().populate('savedBooks');
-    },
-    user: async (parent, { username }) => {
-      return User.findOne({ username }).populate('savedBooks');
     },
   },
 
