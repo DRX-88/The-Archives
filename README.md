@@ -62,14 +62,21 @@ Contributions are welcome! Please follow these steps:
 
 ## Technologies
 
-- Webpack: A module bundler that helps you bundle your JavaScript files for deployment.
-- Babel: A JavaScript compiler that allows you to write modern JavaScript code and convert it into backward-compatible versions for older browsers.
-- Express: A fast, unopinionated, and minimalist web framework for Node.js.
+- **Backend Framework**: Node.js with Express
+- **Database**: MongoDB with Mongoose
+- **GraphQL Server**: Apollo Server
+- **Authentication**: JSON Web Tokens (jsonwebtoken)
+- **Password Hashing**: bcrypt
+- **Cross-Origin Resource Sharing**: cors
+- **Frontend Framework**: React
+- **UI Library**: React Bootstrap
+- **Routing**: React Router DOM
+- **State Management**: (You can add your preferred state management library here)
 
 ## Links
-[Render Deployment](https://install-me.onrender.com)
+[Render Deployment](https://the-archives.onrender.com)
 
-[Github Repo](https://github.com/DRX-88/Install-Me)
+[Github Repo](https://github.com/DRX-88/The-Archives)
 
 ## Questions
 If you have any questions, you can reach me through the following:
